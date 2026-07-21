@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Fatima Sabiu Ibrahim</title>
+    <link rel="stylesheet" href="styles"> <!-- fixed: was style.css -->
+</head>
+<body>
+
+<header>
+    <div class="container nav-container">
+        <h2 class="logo">Fatima Sabiu Ibrahim</h2>
+        <button class="menu-toggle" id="menu-toggle-gallery">☰</button>
+        <nav id="navbar-gallery">
+            <a href="index">Home</a>
+            <a href="about">About</a>
+            <a href="skills">Skills</a>
+            <a href="education">Education</a>
+            <a href="project">Projects</a>
+            <a href="service">Services</a>
+            <a href="gallery" class="active">Gallery</a>
+            <a href="contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="section">
+    <div class="container">
+        <h2>My Images</h2>
+        <p>These images represent my activities, projects, learning process and achievements.</p>
+
+        <div class="gallery">
+            <img src="Fatima-sabiu-ibrahim.jpg" alt="Fatima Sabiu Ibrahim" class="gallery-item">
+            <!-- You can duplicate it until you add more photos -->
+            <img src="Fatima-sabiu-ibrahim.jpg" alt="Fatima Sabiu Ibrahim 2" class="gallery-item">
+            <img src="Fatima-sabiu-ibrahim.jpg" alt="Fatima Sabiu Ibrahim 3" class="gallery-item">
+            
+            <!-- Optional: show your video too -->
+            <video controls class="gallery-item">
+                <source src="Fatima-sabiu-ibrahim.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="">
+</div>
+
+<footer>
+    <p>© 2026 Fatima Sabiu Ibrahim</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatima Sabiu Ibrahim - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>My Portfolio Video</h1>
+
+    <video width="700" controls poster="Fatima-sabiu-ibrahim.jpg">
+        <source src="Fatima-sabiu-ibrahim" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <nav>
+        <a href="index">Home</a>
+        <a href="about">About</a>
+        <a href="project">Projects</a>
+        <a href="contact">Contact</a>
+    </nav>
+
+</body>
+</html>
